@@ -1,0 +1,38 @@
+This file contains Information that is not relevant to the project but may help with general maintenance of the Mackie ONYX 1640.
+
+
+Power Connector Pinouts:
+
+From PSU To power-interposer-board and
+From power-interposer-board To pod-IO-plane
+1: +12V
+2: GND
+3: +5.25V
+4: GND
+5: +48V
+6: +15V
+7: +15V
+8: GND
+9: GND
+10: GND
+11: -15V
+12: -15V
+
+From pod-IO-plane to main-fader-board
+1: +15V (connected to pin7 of PSU connector Above)
+2: GND (connected to pin4&8 of PSU connector Above)
+3: GND
+4: -15V (connected to pin12 of PSU connector Above)
+5: +15V (connected to pin6 of PSU connector Above)
+6: GND (connected to pin9 of PSU connector Above)
+7: -15V (connected to pin11 of PSU connector Above)
+
+
+
+Power interposer board:
+sitting Right next to the PSU
+pin 1-5 go Right through (so does Nothing to +5;+12;+48 rails)
++15 and -15 rails are interupted by a MOSFET each (FR024N on -15; 25P03L on +15)
+which are each controlled by the one Output of the 2068-dual-op-amp (pin1 of op-amp to -15; pin7 of op-amp to +15)
+
+the mixer works without it connected, the In- and Output are pin-compatible, no data on long-term
