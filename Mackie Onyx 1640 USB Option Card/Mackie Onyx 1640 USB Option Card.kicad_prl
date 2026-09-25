@@ -18,12 +18,12 @@
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
-      "graphics": true,
+      "graphics": false,
       "keepouts": true,
       "lockedItems": false,
       "otherItems": true,
       "pads": true,
-      "text": true,
+      "text": false,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -118,11 +118,11 @@
   "schematic": {
     "selection_filter": {
       "graphics": true,
-      "images": true,
+      "images": false,
       "labels": true,
       "lockedItems": false,
       "otherItems": true,
-      "pins": true,
+      "pins": false,
       "symbols": true,
       "text": true,
       "wires": true

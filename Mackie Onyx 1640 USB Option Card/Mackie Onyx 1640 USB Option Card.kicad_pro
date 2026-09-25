@@ -48,10 +48,16 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1016
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +216,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -617,6 +631,26 @@
     [
       "114e7a8f-1ffc-4e4a-996f-c24f2cb4b78c",
       "Connector"
+    ],
+    [
+      "c77f34fa-6c97-4cbe-b773-86889ddd278d",
+      "USB Connector"
+    ],
+    [
+      "57e3fb0c-f90d-4890-a828-ac3cc200a545",
+      "Power Managment"
+    ],
+    [
+      "25a48192-8a17-4cf4-bf53-19ead4bcde67",
+      "ADC"
+    ],
+    [
+      "09a94542-c18a-4b3b-8cfe-3914f642650e",
+      "2CH_electronic-balancer-1"
+    ],
+    [
+      "06cbe1a5-ef56-4777-93be-74e627cd1b37",
+      "2CH_electronic-balancer-2"
     ]
   ],
   "text_variables": {}

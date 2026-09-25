@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "xmox")(type "KiCad")(uri "C:/Users/User/Downloads/ul_XU316-1024-QF60B-C24/KiCADv6/2026-06-01_21-07-24.kicad_sym")(options "")(descr ""))
   (lib (name "adc")(type "KiCad")(uri "C:/Users/User/Downloads/ul_CS5368-CQZ/KiCADv6/2026-06-03_15-02-53.kicad_sym")(options "")(descr ""))
+  (lib (name "Mackie Onyx 1640 USB Option Card")(type "KiCad")(uri "${KIPRJMOD}/Mackie Onyx 1640 USB Option Card.kicad_sym")(options "")(descr ""))
 )

@@ -1,0 +1,1794 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d53dfbb6-793b-4eaa-b0ae-bf5c9e080827")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mackie Onyx 1640 USB Option Card:TLV320ADC5140IRTWR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 33.02 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TLV320ADC5140IRTWR"
+				(at 33.02 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RTW24_4P15X4P15_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv320adc5140"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TLV320ADC5140IRTWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RTW24_4P15X4P15_TEX RTW24_4P15X4P15_TEX-M RTW24_4P15X4P15_TEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV320ADC5140IRTWR_0_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "AREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "MICBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "IN1P_GPI1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "IN1M_GPO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "IN2P_GPI2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "IN2M_GPO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "IN3P_GPI3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "IN3M_GPO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "IN4P_GPI4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "IN4M_GPO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 66.04 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -2.54 180)
+					(length 7.62)
+					(name "DREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 66.04 -5.08 180)
+					(length 7.62)
+					(name "FSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 66.04 -7.62 180)
+					(length 7.62)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 66.04 -10.16 180)
+					(length 7.62)
+					(name "SDOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 66.04 -12.7 180)
+					(length 7.62)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 66.04 -15.24 180)
+					(length 7.62)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 66.04 -17.78 180)
+					(length 7.62)
+					(name "SDA_SSZ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 -20.32 180)
+					(length 7.62)
+					(name "SCL_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 -22.86 180)
+					(length 7.62)
+					(name "ADDR0_SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 66.04 -25.4 180)
+					(length 7.62)
+					(name "ADDR1_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 66.04 -27.94 180)
+					(length 7.62)
+					(name "SHDNZ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV320ADC5140IRTWR_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 58.42 -35.56)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 137.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0041e290-6983-45c5-a6ea-361ad0830cc7")
+	)
+	(wire
+		(pts
+			(xy 107.95 67.31) (xy 107.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0431d0cb-7fd7-4de7-9e7b-07eaa427f566")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080a5eef-a2a9-4293-8e1e-72cacfb1497c")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 109.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e847cd-f1a8-4918-99e1-567b962b5320")
+	)
+	(wire
+		(pts
+			(xy 111.76 74.93) (xy 111.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a4161c-72d7-4b8a-a009-1ca3560dc870")
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 109.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2982a7aa-69c5-474a-8be3-b0ec4c824f48")
+	)
+	(wire
+		(pts
+			(xy 80.01 52.07) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee5063d-290c-44b7-9c54-61e737442d70")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43299378-6618-47cd-87f8-33b5bc407cec")
+	)
+	(wire
+		(pts
+			(xy 109.22 58.42) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49de6f02-00b6-49c7-929d-7447772b324d")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c336097-21bf-45da-9a87-ef6eecb70775")
+	)
+	(wire
+		(pts
+			(xy 80.01 71.12) (xy 83.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f19a743-cb2d-43e9-9e95-258a5a570898")
+	)
+	(wire
+		(pts
+			(xy 105.41 55.88) (xy 107.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff9d679-aea4-4c94-9886-a19e09eced95")
+	)
+	(wire
+		(pts
+			(xy 107.95 55.88) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a19a20-5778-46a2-9dfb-2d584a1d65ff")
+	)
+	(wire
+		(pts
+			(xy 80.01 67.31) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688af37c-8f0d-4ddb-93de-86f0c2c65ffc")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a6c28e-dc07-4e43-88a5-81af4127729e")
+	)
+	(wire
+		(pts
+			(xy 110.49 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c45f8c-48fe-42f6-8b45-2059186ca1ea")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 111.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8258537b-d8ea-48cd-9daa-738ad4bd74e9")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d91ff3-a2bc-4052-a931-7d50830b1a1e")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9788605e-93fb-4de1-b1dd-d78927fd553e")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 83.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c93d34-5739-446a-9c59-7f895b5d2996")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d8156c-7768-45e2-b1f3-dc18b3369235")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b429975b-c04c-47dc-8530-eb7232a944c4")
+	)
+	(wire
+		(pts
+			(xy 105.41 48.26) (xy 111.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87b6f31-9117-49a6-b5a7-9cd3a51312cf")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd6c6a2-ec7e-46b8-930a-9fa0aa63d79a")
+	)
+	(wire
+		(pts
+			(xy 111.76 48.26) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1da0627-4ad4-42fa-908e-8e9684742fbd")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df446075-fecd-4799-a548-dcf4b1e6747c")
+	)
+	(wire
+		(pts
+			(xy 105.41 50.8) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa66863-2a0c-4791-b441-51ad11bd1b3f")
+	)
+	(wire
+		(pts
+			(xy 109.22 53.34) (xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fd63d7-7dab-4a53-9906-4cc8edf1372a")
+	)
+	(global_label "I2C_DATA"
+		(shape input)
+		(at 203.2 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0071cb16-3319-42b2-9afe-85324e628149")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6519 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_CLOCK"
+		(shape input)
+		(at 203.2 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d495134-0ed3-4c33-88a0-4f794f56b97f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.4057 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADV1_AVDD"
+		(shape input)
+		(at 137.16 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79803f3d-4f3b-4f23-9803-deb34422ad92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.8333 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADV1_DREG"
+		(shape input)
+		(at 203.2 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7cc5423-8081-4181-8e08-b1581347b339")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.7685 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADV1_MICBIAS"
+		(shape input)
+		(at 137.16 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b33df8b0-1cc2-4138-98a8-47b302477bf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.0514 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADV1_VREF"
+		(shape input)
+		(at 137.16 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c342ae3e-41c2-46a6-8263-5507e78423f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.9543 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADV1_IOVDD"
+		(shape input)
+		(at 203.2 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d58b07bc-5e4b-4149-9af3-1d57052b241f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.3734 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADV1_AREG"
+		(shape input)
+		(at 137.16 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1958028-7cac-4e6f-a84c-2632425a98b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.7729 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 80.01 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a82ea867-878f-4507-9cae-7caa4d8b4dae")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 80.01 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bda3f5f7-ed63-4481-aea4-9f53aba84db0")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 80.01 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dae2c3f6-411b-4a7c-8ce2-d25bbaa52c17")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 80.01 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffae5fed-0ee9-4e45-8acd-1a012b5ddb3f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 66.04 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b79bd7f-c891-4094-a9f8-ff8910fce97c")
+		(property "Reference" "#PWR064"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dd5ad2e-fe55-4658-8ff5-c9dddb471c5e")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/25a48192-8a17-4cf4-bf53-19ead4bcde67"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+			(project "ADC"
+				(path "/d53dfbb6-793b-4eaa-b0ae-bf5c9e080827"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "329c1c85-ae95-4d67-839d-bf59096e25b0")
+		(property "Reference" "#PWR039"
+			(at 209.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b08cf19-9593-429f-a1e3-de818d3a5aaf")
+		)
+		(instances
+			(project ""
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/25a48192-8a17-4cf4-bf53-19ead4bcde67"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+			(project "ADC"
+				(path "/d53dfbb6-793b-4eaa-b0ae-bf5c9e080827"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 63.5 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2e65a68-c31e-4b74-940b-afd272514ec3")
+		(property "Reference" "#PWR063"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4092f46c-43a0-4b70-940e-983f83d9f331")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/25a48192-8a17-4cf4-bf53-19ead4bcde67"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+			(project "ADC"
+				(path "/d53dfbb6-793b-4eaa-b0ae-bf5c9e080827"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 48.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e55da89b-1fb5-490f-bb51-b0953cfc1bbd")
+		(property "Reference" "#PWR0104"
+			(at 130.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b08cf19-9593-429f-a1e3-de818d3a5aaf")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/25a48192-8a17-4cf4-bf53-19ead4bcde67"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mackie Onyx 1640 USB Option Card:TLV320ADC5140IRTWR")
+		(at 137.16 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5d8deb5-aa10-4082-ac99-688cd7bf7e5e")
+		(property "Reference" "U2"
+			(at 170.18 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV320ADC5140IRTWR"
+			(at 170.18 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Mackie Onyx 1640 USB Option Card:RTW24_4P15X4P15_TEX"
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv320adc5140"
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ae664d01-950e-49ee-9940-40d445908913")
+		)
+		(pin "10"
+			(uuid "bb7f80b8-2019-47f1-9e2e-757163038073")
+		)
+		(pin "25"
+			(uuid "72c8dfb2-9349-4337-a16e-2aaf1499859d")
+		)
+		(pin "24"
+			(uuid "c9b58349-8831-4106-ad6e-aefc967b7faa")
+		)
+		(pin "5"
+			(uuid "5d852c88-a90b-4a8b-861a-a9c7608287ca")
+		)
+		(pin "6"
+			(uuid "37fffd5d-d428-47fb-a567-e1ec9b1ef6ac")
+		)
+		(pin "11"
+			(uuid "fc4c9096-6f59-40b1-914f-9713aba32381")
+		)
+		(pin "12"
+			(uuid "453c2b63-6fb6-4907-9b33-b8ca74285fe4")
+		)
+		(pin "1"
+			(uuid "dcc098a3-6e51-46d9-84b7-e41230a8b04f")
+		)
+		(pin "4"
+			(uuid "2e9cb282-d5c4-4618-aa66-4f726a03eef6")
+		)
+		(pin "7"
+			(uuid "170aa375-8025-4fda-a436-e3efab4c3387")
+		)
+		(pin "8"
+			(uuid "b5ae8f43-7b9d-4ef7-b9aa-2eba3f74b701")
+		)
+		(pin "2"
+			(uuid "1849d587-e6ae-4190-bbda-7bd376cef570")
+		)
+		(pin "9"
+			(uuid "8e4d9032-d2da-42e6-a9e6-c181edda334b")
+		)
+		(pin "21"
+			(uuid "880643da-79ef-40d6-95dd-7f0fa21d9f38")
+		)
+		(pin "17"
+			(uuid "79ca39ef-e1ef-4c22-9865-cd478cd85cca")
+		)
+		(pin "23"
+			(uuid "647d2535-5625-437c-8c13-5650787d93a2")
+		)
+		(pin "18"
+			(uuid "a3a539ad-7dc4-416c-a3c1-a63c83337a8a")
+		)
+		(pin "14"
+			(uuid "c5de9b2b-eabf-48b9-898d-20120595e98c")
+		)
+		(pin "13"
+			(uuid "4ceee664-d2ea-4dd1-95c3-85208d9343f2")
+		)
+		(pin "20"
+			(uuid "357ccca6-b33a-4ccc-9742-c7cd1681d184")
+		)
+		(pin "22"
+			(uuid "ee85eb0c-90da-448a-a835-6654fd15836c")
+		)
+		(pin "19"
+			(uuid "e13f4a62-2a13-43ff-a0f3-9f36908d7bbe")
+		)
+		(pin "16"
+			(uuid "03615de7-5368-4300-ac2c-f28ddd7220a3")
+		)
+		(pin "15"
+			(uuid "00f65201-a4c6-4597-81ab-8d4d3de99953")
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/25a48192-8a17-4cf4-bf53-19ead4bcde67"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "ADC"
+				(path "/d53dfbb6-793b-4eaa-b0ae-bf5c9e080827"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 64.77)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06cbe1a5-ef56-4777-93be-74e627cd1b37")
+		(property "Sheetname" "2CH_electronic-balancer-2"
+			(at 83.82 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2CH_balancer.kicad_sch"
+			(at 83.82 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 83.82 67.31 180)
+			(uuid "c57c1c7f-946f-4a3b-b41e-0ce407f4b80a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 83.82 71.12 180)
+			(uuid "84b6debf-2965-4574-bcde-f145e5456c84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1 +" output
+			(at 105.41 67.31 0)
+			(uuid "4bd8b990-672d-42ac-a947-1149c48c2b9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1 -" output
+			(at 105.41 69.85 0)
+			(uuid "b15d5846-4b13-4186-8d8d-3adca15f645b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2 +" output
+			(at 105.41 72.39 0)
+			(uuid "186d440d-f316-43ef-b837-049838b9ec5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2 -" output
+			(at 105.41 74.93 0)
+			(uuid "b37e7f30-2720-4e96-87cc-da9325b96be1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/25a48192-8a17-4cf4-bf53-19ead4bcde67"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 45.72)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09a94542-c18a-4b3b-8cfe-3914f642650e")
+		(property "Sheetname" "2CH_electronic-balancer-1"
+			(at 83.82 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2CH_balancer.kicad_sch"
+			(at 83.82 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 83.82 48.26 180)
+			(uuid "e86421a5-fa63-479a-8483-5fcda0a46eb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 83.82 52.07 180)
+			(uuid "da041021-6052-415d-bddd-4bc1f090418b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1 +" output
+			(at 105.41 48.26 0)
+			(uuid "6f2dd0d3-bb8c-4bcd-a221-18ba425d79d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1 -" output
+			(at 105.41 50.8 0)
+			(uuid "2eb09bce-82df-4f54-abcd-8db22751005a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2 +" output
+			(at 105.41 53.34 0)
+			(uuid "3c3e01aa-9732-475d-98cb-0d275146b12e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2 -" output
+			(at 105.41 55.88 0)
+			(uuid "4814bb55-56e0-4a9b-88f9-2c57a12b281b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/25a48192-8a17-4cf4-bf53-19ead4bcde67"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
