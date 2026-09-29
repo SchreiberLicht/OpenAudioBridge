@@ -1427,7 +1427,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b08cf19-9593-429f-a1e3-de818d3a5aaf")
+			(uuid "0b08cf19-9593-429f-a1e3-de818d3a5ab0")
 		)
 		(instances
 			(project "Mackie Onyx 1640 USB Option Card"

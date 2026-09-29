@@ -3226,6 +3226,88 @@
 			)
 		)
 	)
+	(sheet
+		(at 218.44 58.42)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea346730-79cb-483e-ab7e-73bc2099d388")
+		(property "Sheetname" "ADC_DAC"
+			(at 218.44 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_DAC.kicad_sch"
+			(at 218.44 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN2" input
+			(at 241.3 63.5 0)
+			(uuid "bac6d269-ec27-4bc5-bfce-46adaa6c3219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1" output
+			(at 241.3 66.04 0)
+			(uuid "f378fe77-12bd-4a7f-98bf-d427fa8cb8cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 241.3 68.58 0)
+			(uuid "19fcd22e-255f-4b6c-a32b-0f25865eba5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN1" input
+			(at 241.3 60.96 0)
+			(uuid "82278ade-84a3-41d5-b9a9-38a10ebb9d88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735"
+					(page "8")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
