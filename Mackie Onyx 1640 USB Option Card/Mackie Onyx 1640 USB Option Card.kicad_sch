@@ -1730,6 +1730,36 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 76.2) (xy 267.97 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3154d17f-4821-48b3-8c4d-36caad824710")
+	)
+	(wire
+		(pts
+			(xy 241.3 68.58) (xy 267.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33876f81-c36f-488a-8103-05ca279dd492")
+	)
+	(wire
+		(pts
+			(xy 241.3 71.12) (xy 267.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34953cb5-337b-4947-a26d-ddee318ec0ca")
+	)
+	(wire
+		(pts
 			(xy 241.3 35.56) (xy 267.97 35.56)
 		)
 		(stroke
@@ -1847,6 +1877,16 @@
 			(type default)
 		)
 		(uuid "dea86be5-97c0-402b-8cbe-565e747a0530")
+	)
+	(wire
+		(pts
+			(xy 241.3 73.66) (xy 267.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec57269a-54eb-4837-9d54-7963b1cb4c55")
 	)
 	(wire
 		(pts
@@ -3227,7 +3267,7 @@
 		)
 	)
 	(sheet
-		(at 218.44 58.42)
+		(at 218.44 66.04)
 		(size 22.86 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3242,8 +3282,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ea346730-79cb-483e-ab7e-73bc2099d388")
-		(property "Sheetname" "ADC_DAC"
-			(at 218.44 57.7084 0)
+		(property "Sheetname" "CODEC (page 8)"
+			(at 218.44 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,8 +3291,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADC_DAC.kicad_sch"
-			(at 218.44 75.5146 0)
+		(property "Sheetfile" "CODEC.kicad_sch"
+			(at 218.44 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3301,7 @@
 			)
 		)
 		(pin "IN2" input
-			(at 241.3 63.5 0)
+			(at 241.3 71.12 0)
 			(uuid "bac6d269-ec27-4bc5-bfce-46adaa6c3219")
 			(effects
 				(font
@@ -3271,7 +3311,7 @@
 			)
 		)
 		(pin "OUT1" output
-			(at 241.3 66.04 0)
+			(at 241.3 73.66 0)
 			(uuid "f378fe77-12bd-4a7f-98bf-d427fa8cb8cd")
 			(effects
 				(font
@@ -3281,7 +3321,7 @@
 			)
 		)
 		(pin "OUT2" output
-			(at 241.3 68.58 0)
+			(at 241.3 76.2 0)
 			(uuid "19fcd22e-255f-4b6c-a32b-0f25865eba5b")
 			(effects
 				(font
@@ -3291,7 +3331,7 @@
 			)
 		)
 		(pin "IN1" input
-			(at 241.3 60.96 0)
+			(at 241.3 68.58 0)
 			(uuid "82278ade-84a3-41d5-b9a9-38a10ebb9d88")
 			(effects
 				(font

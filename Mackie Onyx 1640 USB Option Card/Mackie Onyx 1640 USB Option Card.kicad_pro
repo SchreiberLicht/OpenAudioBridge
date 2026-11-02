@@ -654,11 +654,15 @@
     ],
     [
       "ea346730-79cb-483e-ab7e-73bc2099d388",
-      "ADC_DAC"
+      "CODEC (page 8)"
     ],
     [
       "871ad335-f6b2-4640-b5a8-703c52d1f220",
-      "2CH_electronic-balancer-1"
+      "_"
+    ],
+    [
+      "9b0cda6e-b96a-4e42-8d56-540c7da94770",
+      "2CH_electronic-balancer-3"
     ]
   ],
   "text_variables": {}

@@ -658,62 +658,302 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "IN1"
-		(shape input)
-		(at 83.82 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 115.57 64.77) (xy 114.3 63.5)
 		)
-		(uuid "417e9d47-56bb-4270-b123-d88cd7c56944")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0659e9c6-0fd4-4c9d-a106-08047318344f")
 	)
-	(hierarchical_label "OUT2"
-		(shape output)
-		(at 81.28 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 115.57 62.23) (xy 147.32 62.23)
 		)
-		(uuid "43b1e9a2-108d-4caa-87f0-5cb9e00b14ff")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a968863-4a8e-4cdf-804f-cbae6bd465e3")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178774b1-a8c1-4abf-a183-451836a8cb8a")
+	)
+	(wire
+		(pts
+			(xy 115.57 62.23) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18154969-c963-4fda-a71e-9016d95c2b9f")
+	)
+	(wire
+		(pts
+			(xy 118.11 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1968b160-7813-43b8-ba1a-7220dfb30116")
+	)
+	(wire
+		(pts
+			(xy 92.71 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336bd8f5-5ed8-41c6-aaf0-8a5b97d12afa")
+	)
+	(wire
+		(pts
+			(xy 118.11 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1775d6-457a-4e2a-b17e-0c4764df8de9")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.93) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b53c1c1-e639-4642-a6af-a3f517d89644")
+	)
+	(wire
+		(pts
+			(xy 92.71 77.47) (xy 96.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c2b597-6024-4df6-bff4-b6f47fac86aa")
+	)
+	(wire
+		(pts
+			(xy 147.32 57.15) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5366d6a4-a035-4386-afe3-7cfdf08d8b28")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620aaf0c-9de3-4f82-b710-e312fc6e5a66")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e7f478-6014-4ab8-91b7-09d1da56e696")
+	)
+	(wire
+		(pts
+			(xy 135.89 67.31) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5469eb-5d2f-4e0e-8e6a-7961670289ee")
+	)
+	(wire
+		(pts
+			(xy 118.11 78.74) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d57c4a-8ac6-4ece-ad88-2b0144fe9b54")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cab2118-c2ad-4b40-9e59-a7880c4dc31c")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62c4f46-ad23-47a8-b206-680272287883")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.93) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9608019-625c-458a-bb07-fe015e7c771a")
+	)
+	(wire
+		(pts
+			(xy 115.57 59.69) (xy 114.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4528254-b51b-46c9-ba49-465d246e0a29")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.15) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97fd806-1969-4ca4-a7bd-10dc45e9dfe3")
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c63451-be3b-483d-b37b-cf60cc513dfe")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbb04d2-841c-478d-a89d-8825a6fbeb57")
+	)
+	(wire
+		(pts
+			(xy 147.32 67.31) (xy 135.89 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f077792f-aae8-4448-992c-0cb0cbc88e09")
+	)
+	(wire
+		(pts
+			(xy 115.57 64.77) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67f5ed9-f0ae-4492-bb95-74cf40dd1d28")
+	)
+	(wire
+		(pts
+			(xy 115.57 57.15) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b4a3bc-1349-4f44-a0a3-584d947384a7")
 	)
 	(hierarchical_label "IN2"
 		(shape input)
-		(at 83.82 62.23 180)
+		(at 92.71 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c15b5cd7-acbd-4521-8c24-21b807e33a03")
+		(uuid "3b0b9733-4217-46c2-90e3-249292fa65cb")
 	)
 	(hierarchical_label "OUT1"
 		(shape output)
-		(at 82.55 72.39 180)
+		(at 92.71 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d404535c-6496-4594-bc47-728ce73fc985")
+		(uuid "3f5ea7d0-f1ff-4990-901f-bb6b9c0a5641")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 92.71 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4ff3421-acf4-4dc7-8878-82af0ba2b3ea")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 92.71 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e30b4d09-f440-4980-beed-c152189a0648")
 	)
 	(symbol
 		(lib_id "ADC_DAC:XTAC5212IRGER")
-		(at 151.13 58.42 0)
+		(at 198.12 39.37 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "599da17f-c420-4fdf-b5dd-905e8a12246e")
 		(property "Reference" "U5"
-			(at 176.53 48.26 0)
+			(at 172.72 29.21 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -721,7 +961,7 @@
 			)
 		)
 		(property "Value" "XTAC5212IRGER"
-			(at 176.53 50.8 0)
+			(at 172.72 31.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -729,7 +969,7 @@
 			)
 		)
 		(property "Footprint" "VQFN24_RGE_CORNERPADS_TEX"
-			(at 151.13 58.42 0)
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +979,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tac5212"
-			(at 151.13 58.42 0)
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 58.42 0)
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +1109,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "871ad335-f6b2-4640-b5a8-703c52d1f220")
-		(property "Sheetname" "2CH_electronic-balancer-1"
+		(property "Sheetname" "_"
 			(at 96.52 53.8984 0)
 			(effects
 				(font
@@ -878,7 +1118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "2CH_electronic-balancer-1.kicad_sch"
+		(property "Sheetfile" "_.kicad_sch"
 			(at 96.52 65.3546 0)
 			(effects
 				(font
@@ -887,9 +1127,9 @@
 				(justify left top)
 			)
 		)
-		(pin "IN2" input
+		(pin "OUT1" output
 			(at 96.52 62.23 180)
-			(uuid "ebc6aa29-750f-4612-bf92-3bdf23299fe7")
+			(uuid "574fdd4d-cafd-4923-8dcd-26e6a9016eb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,29 +1137,9 @@
 				(justify left)
 			)
 		)
-		(pin "IN1" input
-			(at 96.52 57.15 180)
-			(uuid "fc99d6b7-d08b-4b57-a07a-74289a8c33c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT1 -" output
-			(at 114.3 58.42 0)
-			(uuid "c3a99c3e-9008-4e05-b74d-2628994f8788")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT2 -" output
+		(pin "IN1 +" input
 			(at 114.3 63.5 0)
-			(uuid "4fa91226-9a72-4c61-8a6b-a9d3af02e4ad")
+			(uuid "aa7e8c8f-b8a9-4d37-a4da-f37980b6b51a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,19 +1147,39 @@
 				(justify right)
 			)
 		)
-		(pin "OUT1 +" output
-			(at 114.3 55.88 0)
-			(uuid "a745502a-cc78-47c8-8291-43b0fca566a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT2 +" output
+		(pin "IN1 -" input
 			(at 114.3 60.96 0)
-			(uuid "b10ea1c9-3dad-4fca-95e2-00b83693070a")
+			(uuid "8057cf1c-c7f9-4603-93a2-bd48d71d7621")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 96.52 57.15 180)
+			(uuid "4120a890-d646-4c27-89c1-163bf57050df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2 -" input
+			(at 114.3 55.88 0)
+			(uuid "f3f07c57-c4ec-4fd3-be29-fa500ba81db4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN2 +" input
+			(at 114.3 58.42 0)
+			(uuid "0427a83b-275a-4a53-99a9-4a542649b9d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,6 +1191,107 @@
 			(project "Mackie Onyx 1640 USB Option Card"
 				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/ea346730-79cb-483e-ab7e-73bc2099d388"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 71.12)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b0cda6e-b96a-4e42-8d56-540c7da94770")
+		(property "Sheetname" "2CH_electronic-balancer-3"
+			(at 96.52 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2CH_balancer.kicad_sch"
+			(at 96.52 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 96.52 81.28 180)
+			(uuid "f406eb5b-391a-4c41-a2ea-c3924f5b743b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 96.52 77.47 180)
+			(uuid "2f30f7d0-ad2d-4384-9526-639ed9cd60ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1 +" output
+			(at 118.11 81.28 0)
+			(uuid "3a058643-a276-4e35-bf9b-6e1bd7f7103d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1 -" output
+			(at 118.11 78.74 0)
+			(uuid "37668f6e-a432-4a45-a6ce-e470fa202437")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2 +" output
+			(at 118.11 76.2 0)
+			(uuid "abe172fb-1335-4963-ad59-5e762f232ab3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2 -" output
+			(at 118.11 73.66 0)
+			(uuid "ceb9442a-3e89-45b5-a9d8-dcb5ae13bec6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mackie Onyx 1640 USB Option Card"
+				(path "/c9b3cb63-7cfd-4f49-8501-d785ca0cd735/ea346730-79cb-483e-ab7e-73bc2099d388"
+					(page "10")
 				)
 			)
 		)
